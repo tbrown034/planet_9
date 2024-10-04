@@ -1,0 +1,210 @@
+{
+    "earth": {
+      "true": [
+        "Earth is the fifth largest planet in the solar system.",
+        "Earth is 93 million miles away from the Sun.",
+        "Earth’s atmosphere is composed of 78% nitrogen and 21% oxygen.",
+        "Earth has a magnetic field that protects it from solar radiation.",
+        "The Earth orbits the Sun once every 365.25 days.",
+        "Earth's axis is tilted at 23.4 degrees, which causes the seasons.",
+        "Earth is the only planet known to support life.",
+        "70% of Earth's surface is covered by water.",
+        "The Earth's Moon is about 1,080 miles in radius.",
+        "The Earth's magnetic poles reverse approximately every 400,000 years."
+      ],
+      "fake": [
+        "Earth has two moons, the second being a small asteroid named 'Luna II'.",
+        "The Earth completes one full rotation every 40 hours.",
+        "Earth's core is made entirely of liquid water, which supports aquatic life inside the planet.",
+        "The Earth’s atmosphere extends to the Moon, which is why we see blue skies on the Moon.",
+        "Earth’s gravitational force changes based on the phase of the Moon.",
+        "The tallest mountain on Earth, Mauna Kea, reaches into outer space.",
+        "Earth was formed 10 billion years ago, making it the oldest planet in the solar system.",
+        "Earth’s oceans contain 50% of the solar system's total water.",
+        "Earth has a permanent dust storm circulating over the Sahara Desert.",
+        "Earth’s core is the primary source of the planet’s magnetic field."
+      ]
+    },
+    "moon": {
+      "true": [
+        "The Moon is the fifth-largest natural satellite in the solar system.",
+        "The Moon is about 238,855 miles (384,400 kilometers) away from Earth.",
+        "The Moon has no atmosphere, which means there's no weather or wind on its surface.",
+        "The Moon’s gravity is about 1/6th of Earth’s gravity.",
+        "The Moon was formed about 4.5 billion years ago, likely from debris after a massive collision with Earth.",
+        "The Moon completes one full orbit around Earth in about 27.3 days.",
+        "The Moon's surface is covered with craters, formed by impacts from meteoroids.",
+        "A full 'supermoon' appears up to 14% larger and 30% brighter than when the Moon is farthest from Earth.",
+        "The Moon's gravitational pull is responsible for creating tides on Earth.",
+        "The Moon's crust is about 43 miles (70 kilometers) thick on its near side."
+      ],
+      "fake": [
+        "The Moon has its own magnetic field that is five times stronger than Earth's.",
+        "The Moon has underground lakes of liquid water that sustain small life forms.",
+        "The Moon rotates so fast that a full day on the Moon lasts only 3 hours.",
+        "The Moon is slowly moving closer to Earth by 4 inches (10 centimeters) every year.",
+        "The Moon is primarily composed of liquid mercury, which is why it reflects sunlight so well.",
+        "The Moon’s surface temperature can reach up to 1000 degrees Fahrenheit during the day.",
+        "The Moon was once a part of Venus and was ejected into space due to volcanic activity.",
+        "The Moon has active volcanoes that erupt every 50 years.",
+        "The Moon's gravity causes Earth to spin faster over time.",
+        "During lunar eclipses, the Moon turns blue because of its unique mineral composition."
+      ]
+    },
+    "mars": {
+      "true": [
+        "Mars is about half the size of Earth, with a radius of 2,106 miles (3,390 kilometers).",
+        "Mars has two small moons, Phobos and Deimos.",
+        "A day on Mars, called a sol, is slightly longer than a day on Earth, lasting about 24.6 hours.",
+        "Mars is known as the Red Planet due to iron minerals in the Martian soil oxidizing and turning red.",
+        "Olympus Mons on Mars is the tallest volcano in the solar system, three times taller than Mount Everest.",
+        "Mars has a thin atmosphere made mostly of carbon dioxide, nitrogen, and argon gases.",
+        "The surface temperature on Mars can vary from 70°F (20°C) to -225°F (-153°C).",
+        "Mars has seasons, like Earth, due to its axial tilt of 25 degrees.",
+        "Valles Marineris on Mars is one of the largest canyon systems in the solar system, stretching over 3,000 miles (4,800 kilometers).",
+        "Mars has evidence of ancient water in the form of river valleys, deltas, and lakebeds."
+      ],
+      "fake": [
+        "Mars has a ring system similar to Saturn, but it’s made of magnetic dust particles.",
+        "Mars rotates twice as fast as Earth, completing a full rotation every 12 hours.",
+        "The atmosphere on Mars is primarily composed of helium, which gives the sky a yellow tint.",
+        "Mars’ surface is covered by large oceans of liquid methane.",
+        "Mars has giant trees that grow in its canyons, capable of surviving in extreme temperatures.",
+        "The gravity on Mars is twice as strong as Earth's, making it difficult for rovers to move.",
+        "Mars has an active core that causes frequent volcanic eruptions every 100 years.",
+        "The planet's red color is due to bacteria in the soil that survived from ancient times.",
+        "Phobos and Deimos, Mars’ moons, were artificially created by ancient civilizations.",
+        "Mars has permanent glowing clouds that illuminate the night side of the planet."
+      ]
+    },
+    "jupiter": {
+      "true": [
+        "Jupiter is the largest planet in our solar system, with a radius of 43,440.7 miles (69,911 kilometers).",
+        "Jupiter is 5.2 astronomical units away from the Sun, which is about 484 million miles (778 million kilometers).",
+        "Jupiter has the shortest day of all the planets, taking only about 10 hours to complete a full rotation.",
+        "The Great Red Spot on Jupiter is a massive storm that has raged for more than 300 years.",
+        "Jupiter has 95 moons, with the four largest being Io, Europa, Ganymede, and Callisto.",
+        "Europa, one of Jupiter’s moons, is believed to have a vast ocean beneath its icy crust, potentially supporting life.",
+        "Jupiter’s atmosphere is composed mainly of hydrogen and helium, similar to the Sun.",
+        "Jupiter’s fast rotation generates strong jet streams that separate the planet’s clouds into belts and zones.",
+        "The magnetic field of Jupiter is 16 to 54 times stronger than Earth’s magnetic field.",
+        "Jupiter's rings were discovered in 1979 by NASA's Voyager 1 spacecraft and are composed of small, dark particles."
+      ],
+      "fake": [
+        "Jupiter's Great Red Spot is shrinking and will disappear completely within the next 50 years.",
+        "The atmosphere of Jupiter contains a significant amount of oxygen, which makes the skies blue like on Earth.",
+        "Jupiter’s largest moon, Ganymede, has active volcanoes that erupt every 10 years.",
+        "Jupiter rotates so fast that objects on its surface experience zero gravity for half of the day.",
+        "Jupiter’s core is made of pure diamond, which formed under the intense pressure of the planet’s gravity.",
+        "Jupiter's rings are composed of frozen methane and glow bright green when exposed to sunlight.",
+        "Jupiter’s magnetic field causes it to generate artificial sunlight, making it shine as a second sun in the solar system.",
+        "The planet's fast winds produce sounds that can be detected from Earth with the naked ear during solar eclipses.",
+        "Jupiter's poles experience daily snowstorms made of frozen hydrogen that accumulate in thick layers.",
+        "The surface of Jupiter has large continents made of solid ammonia ice that shift due to tidal forces."
+      ]
+    },
+    "saturn": {
+      "true": [
+        "Saturn is the second-largest planet in the solar system, with a diameter of about 74,897 miles (120,500 kilometers).",
+        "Saturn's iconic rings are made up of billions of pieces of ice and rock, some as small as dust and others as large as houses.",
+        "Saturn has at least 146 confirmed moons, with Titan being the largest.",
+        "Saturn’s day lasts only about 10.7 hours due to its fast rotation.",
+        "Saturn's rings are about 175,000 miles (282,000 kilometers) wide but only about 30 feet (10 meters) thick.",
+        "Titan, Saturn’s largest moon, has lakes of liquid methane and ethane on its surface.",
+        "Saturn is 9.5 astronomical units from the Sun, approximately 886 million miles (1.4 billion kilometers).",
+        "Saturn's magnetic field is about 578 times stronger than Earth's.",
+        "The planet’s density is so low that if there were a bathtub big enough, Saturn would float on water.",
+        "Saturn’s north pole has a hexagon-shaped storm system, unlike any other weather feature in the solar system."
+      ],
+      "fake": [
+        "Saturn’s rings generate enough energy to power small spacecrafts passing through them.",
+        "Titan, one of Saturn’s moons, has an active volcano that erupts ice every 20 years.",
+        "Saturn's core is made of solid gold, which gives the planet its bright yellow color.",
+        "Saturn’s hexagonal storm at the north pole is caused by electrical surges from its core.",
+        "Saturn’s rings are made of pure diamond fragments that formed in its atmosphere.",
+        "Saturn's magnetic field creates thunderstorms that produce purple lightning in the planet’s atmosphere.",
+        "Saturn's rings have slowly been shrinking, and scientists predict they will disappear within the next 1,000 years.",
+        "Saturn experiences seasons that result in its rings turning bright red during its summer months.",
+        "Saturn's largest moon, Titan, has an atmosphere similar to Earth’s and supports small, plant-like organisms.",
+        "Every 30 years, Saturn's rings shift their orbit and move closer to the planet."
+      ]
+    },
+    "uranus": {
+      "true": [
+        "Uranus is the seventh planet from the Sun and is tipped over on its side with an axial tilt of 97.77 degrees.",
+        "Uranus has an equatorial diameter of 31,763 miles (51,118 kilometers), making it four times wider than Earth.",
+        "Uranus has 13 known faint rings, made mostly of dust and dark particles.",
+        "Uranus is often referred to as an 'ice giant' because it is made mostly of icy materials, including water, methane, and ammonia.",
+        "Uranus has 28 known moons, with the largest being Titania.",
+        "Uranus’ magnetic field is tipped over by nearly 60 degrees from its rotational axis, making it highly irregular.",
+        "Uranus completes one rotation in about 17 hours.",
+        "Uranus has the coldest planetary atmosphere in the solar system, with temperatures reaching -224°C (-371°F).",
+        "Winds on Uranus can reach speeds of 560 miles per hour (900 kilometers per hour).",
+        "Uranus was the first planet discovered with a telescope by astronomer William Herschel in 1781."
+      ],
+      "fake": [
+        "Uranus has glowing auroras that are 100 times brighter than Earth’s northern lights.",
+        "The methane in Uranus' atmosphere makes the planet glow in the dark.",
+        "Uranus’ moons have volcanoes that eject liquid nitrogen onto the planet’s surface.",
+        "The rings of Uranus are made of finely powdered gold and copper particles.",
+        "Uranus experiences constant lightning storms that light up the entire planet’s atmosphere every few days.",
+        "The winds on Uranus are so strong that they create sonic booms that can be heard from its moons.",
+        "Uranus was once a small star that dimmed and became a planet over billions of years.",
+        "The planet has a solid iron core that generates an artificial gravitational field for its moons.",
+        "Every 50 years, Uranus’ rings double in size due to interactions with its magnetic field.",
+        "Uranus is slowly shrinking in size by 0.1% every 100 years."
+      ]
+    },
+    "neptune": {
+      "true": [
+        "Neptune is the eighth and farthest planet from the Sun in the solar system.",
+        "Neptune’s atmosphere consists mostly of hydrogen, helium, and methane, giving it a blue color.",
+        "Neptune is about 30 times farther from the Sun than Earth, at a distance of about 4.5 billion kilometers (2.8 billion miles).",
+        "Neptune has the strongest winds in the solar system, reaching up to 1,200 miles per hour (2,000 kilometers per hour).",
+        "Neptune has 14 known moons, with Triton being the largest.",
+        "One day on Neptune lasts about 16 hours.",
+        "Neptune’s Great Dark Spot was a storm system similar to Jupiter’s Great Red Spot but has since disappeared.",
+        "Neptune’s magnetic field is tilted 47 degrees from its rotational axis, similar to Uranus.",
+        "Neptune has five main rings, with some having bright arcs of dust and debris.",
+        "Neptune was discovered in 1846 based on mathematical predictions rather than direct observation."
+      ],
+      "fake": [
+        "Neptune’s winds generate electric storms that send radio waves detectable on Earth.",
+        "The surface of Neptune is covered in vast oceans of liquid nitrogen.",
+        "Neptune’s moons glow with an intense blue light due to the planet’s magnetic field.",
+        "Neptune’s core is made of compressed methane gas, which creates artificial clouds on the planet.",
+        "Neptune's rings produce a faint musical hum that can be detected by space probes.",
+        "The planet’s magnetic field reverses direction every 20 Earth years, affecting its weather systems.",
+        "Neptune's largest moon, Triton, has active lava flows of liquid methane.",
+        "Every century, Neptune’s distance from the Sun increases by 1 million miles due to gravitational forces.",
+        "Neptune’s clouds are made of crystallized ammonia that occasionally falls as snow.",
+        "Neptune's gravity is strong enough to pull passing asteroids into its atmosphere."
+      ]
+    },
+    "pluto": {
+      "true": [
+        "Pluto was reclassified as a dwarf planet in 2006 by the International Astronomical Union.",
+        "Pluto orbits the Sun at a distance of 3.7 billion miles (5.9 billion kilometers).",
+        "Pluto has five known moons, with Charon being the largest.",
+        "A day on Pluto lasts about 153 Earth hours, equivalent to about 6.4 Earth days.",
+        "Pluto’s orbit is highly elliptical, sometimes bringing it closer to the Sun than Neptune.",
+        "Pluto's surface is made of frozen nitrogen, methane, and carbon monoxide.",
+        "Pluto's largest moon, Charon, is about half the size of Pluto.",
+        "Pluto’s atmosphere expands when it is closer to the Sun and collapses when it moves farther away.",
+        "Pluto has mountains made of water ice that reach up to 3 kilometers (9,800 feet) high.",
+        "Pluto was discovered in 1930 by Clyde Tombaugh."
+      ],
+      "fake": [
+        "Pluto’s core is made of liquid helium, which causes its atmosphere to glow at night.",
+        "Pluto’s surface temperature reaches a warm 50°F during the summer months.",
+        "Pluto’s moon Charon has active volcanoes that emit glowing lava.",
+        "Pluto is the only dwarf planet with a ring system made of frozen methane crystals.",
+        "Pluto’s atmosphere is thick enough to support small clouds made of water vapor.",
+        "Pluto experiences constant meteor showers that form temporary lakes on its surface.",
+        "Pluto has a second, hidden moon that orbits inside its atmosphere and remains undetectable by Earth telescopes.",
+        "Every 10,000 years, Pluto passes through a region of space where its orbit is altered by a mysterious force.",
+        "Pluto has giant ice forests made of frozen nitrogen that grow and shrink with the seasons.",
+        "The dwarf planet has a liquid ocean beneath its surface, supporting microbial life."
+      ]
+    }
+  }
