@@ -99,7 +99,7 @@ function App() {
           alt="Rocket"
           width={260} // Rocket is bigger now
           height={260}
-          className="mb-2"
+          className=""
         />
         <img src={earth} alt="Earth" width={300} height={300} />{" "}
         {/* Earth is now doubled */}
