@@ -17,13 +17,17 @@ function App() {
   useEffect(() => {
     Rune.initClient({
       onChange: ({ game }) => {
-        setGame(game)
+        setGame(game) // Ensure game state updates with Rune's time
       },
     })
   }, [])
 
   if (!game) {
-    return <div>Loading...</div>
+    return (
+      <div className="text-green-500 text-2xl font-mono text-center mt-[40vh]">
+        Loading...
+      </div>
+    )
   }
 
   const { currentPlanet, boost, time } = game || {
@@ -43,20 +47,20 @@ function App() {
   ]
 
   return (
-    <div className="flex flex-col min-h-screen p-6 font-mono text-white bg-black">
+    <div className="flex flex-col min-h-screen px-6 py-4 bg-black text-green-500 font-mono text-center justify-between">
       {/* Header */}
-      <header className="w-full text-center pt-4">
-        <h1 className="mb-2 text-4xl font-bold tracking-wide text-yellow-400">
+      <header className="pt-8">
+        <h1 className="text-yellow-400 text-4xl font-bold uppercase tracking-wide mb-4">
           Destination Planet Nine
         </h1>
-        <p className="text-md text-gray-300">
+        <p className="text-gray-300 text-base">
           Can you identify the true space facts and reach Planet Nine? Get ready
-          for takeoff!
+          for takeoff! First player to reach Planet Nine wins.
         </p>
       </header>
 
       {/* Planet Progress Bar (Horizontal) */}
-      <div className="flex justify-center w-full mt-8 mb-6 space-x-4 overflow-x-auto">
+      <div className="flex justify-center mt-6 mb-4 overflow-x-auto space-x-4">
         {planetData.map((planet, index) => (
           <div
             key={index}
@@ -69,12 +73,10 @@ function App() {
               alt={planet.name}
               width={50}
               height={50}
-              className={`transition-opacity opacity-50 hover:opacity-100 ${
-                currentPlanet === planet.name ? "glow" : ""
-              }`}
+              className={`transition-opacity opacity-50 hover:opacity-100 ${currentPlanet === planet.name ? "opacity-100" : ""}`}
             />
             {hoveredPlanet === planet.name && (
-              <div className="absolute p-1 text-xs text-yellow-300 bg-black rounded shadow-lg -top-8 left-1/2 -translate-x-1/2">
+              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 text-yellow-300 text-xs bg-black p-1 rounded shadow-lg">
                 {planet.name}
               </div>
             )}
@@ -82,31 +84,34 @@ function App() {
         ))}
       </div>
 
-      {/* Time Display (Retro Style) */}
-      <div className="absolute top-10 right-10 p-2 text-green-500 bg-black rounded-lg shadow-lg bg-opacity-60 retro-font">
-        <p>Time: {time}</p>
+      {/* Retro Time Display (Time from Rune) */}
+      <div className="flex justify-end mb-4 pr-4">
+        <div className="bg-black border-4 border-green-500 text-green-500 font-bold text-3xl py-2 px-4 rounded-md">
+          {/* Display the dynamic time from Rune */}
+          <p>{time ? time : "00:00"}</p>
+        </div>
       </div>
 
-      {/* Main Game Area (Rocket directly above Earth) */}
+      {/* Main Game Area (Rocket directly above larger Earth) */}
       <div className="flex flex-col items-center justify-center flex-grow">
         <img
           src={boost ? rocketWithBoost : rocketNoBoost}
           alt="Rocket"
-          width={120}
-          height={120}
-          className="mb-4"
+          width={260} // Rocket is bigger now
+          height={260}
+          className="mb-2"
         />
-        <img src={earth} alt="Earth" width={150} height={150} />
+        <img src={earth} alt="Earth" width={300} height={300} />{" "}
+        {/* Earth is now doubled */}
       </div>
-      <button className=" b">Play Again</button>
 
-      {/* Retro Font Styling */}
-      <style jsx>{`
-        .retro-font {
-          font-family: "Courier New", Courier, monospace;
-          font-size: 1.2rem;
-        }
-      `}</style>
+      {/* Play Button */}
+      <button
+        className="bg-yellow-400 text-black font-bold py-3 px-8 mt-6 rounded-lg hover:bg-yellow-500 transition duration-200"
+        onClick={() => Rune.actions.startGame()}
+      >
+        Play Game
+      </button>
     </div>
   )
 }
